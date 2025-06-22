@@ -24,7 +24,7 @@ Custom input handling via MyInputLib.h
 Text-based file persistence
 
 📂 File Descriptions
-main.cpp: The core logic of the banking system.
+Bank Project.cpp: The core logic of the banking system.
 
 MyInputLib.h: Custom input helper library.
 
