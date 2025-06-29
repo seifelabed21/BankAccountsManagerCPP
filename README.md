@@ -1,39 +1,53 @@
-# BankAccountsManager
-This project is a simple but powerful C++ console-based application for managing bank accounts. It allows you to store, modify, and interact with customer data such as names, balances, and transactions (deposits/withdrawals), all through a clean text file interface.
+# BankAccountsManager (v2)
 
-💡 Features
-View full list of clients
+A powerful and extensible **C++ console-based banking system** designed to manage both **clients and users** securely through a file-based architecture. This is an upgraded version of my earlier project with **enhanced features**, including **user authentication**, **permissions**, and improved data handling.
 
-Add new clients with full information
+---
 
-Delete or update existing accounts
+## 💡 Features
 
-Find client details by account number
+### 🔐 User Management System
+- Add new users with credentials and permissions
+- Authenticate users via username/password
+- Delete users from the system
+- Save/load users to file
+- Permission-based access control
 
-Perform financial transactions (Deposit / Withdraw)
+### 🧾 Client Account Management
+- View full list of clients
+- Add new clients with full information
+- Delete or update existing accounts
+- Find client details by account number
+- Perform financial transactions (Deposit / Withdraw)
+- View total balance across all clients
 
-View total balance across all clients
+### 💾 Data Persistence
+- All user and client data stored in structured text files
+- Reliable save/load functions for consistent state
 
-File-based storage (read/write client data in a structured format)
+---
 
-🧰 Technologies Used
-C++ Standard Library (iostream, fstream, string, vector)
+## 🧰 Technologies Used
+- **C++ Standard Library**: `iostream`, `fstream`, `vector`, `string`, `sstream`, `algorithm`
+- **Custom Library**: `MyInputLib.h` – for input validation and formatting
+- **Text-based File Storage**: `Bank Project.txt` (clients), `Users.txt` (users)
 
-Custom input handling via MyInputLib.h
+---
 
-Text-based file persistence
+## 📂 File Descriptions
 
-📂 File Descriptions
-Bank Project.cpp: The core logic of the banking system.
+| File Name             | Description                                             |
+|----------------------|---------------------------------------------------------|
+| `Bank Project.cpp`   | Main source file containing the full application logic |
+| `MyInputLib.h`       | Custom helper functions for user input and validation  |
+| `Bank Project.txt`   | Text file storing client account data                  |
+| `Users.txt`          | Text file storing system user credentials & permissions|
+| `.gitignore`         | Excludes binaries or generated files from Git tracking |
 
-MyInputLib.h: Custom input helper library.
+---
 
-Bank Project.txt: The data file used to store and manage client information.
-
-.gitignore: To avoid committing binary files or test data.
-
-🎯 Objective
-This project helped me practice and apply core C++ concepts such as file I/O, vectors, string manipulation, enums, and structured program design. It's a useful tool to demonstrate how structured data can be handled through code, and it could be the foundation for more advanced systems.
-
-🔐 License
-This project is licensed under the MIT License – feel free to use, modify, or contribute.
+## 🚀 How to Use
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/BankAccountsManager.git
+   cd BankAccountsManager
