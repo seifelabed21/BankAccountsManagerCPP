@@ -53,7 +53,7 @@ A powerful and extensible **C++ console-based banking system** designed to manag
    cd BankAccountsManager
 
 
-   🎯 Objective
+🎯 Objective
 This project demonstrates practical use of file I/O, structs, vectors, string manipulation, and user authentication in C++. It’s a great exercise in building small systems that resemble real-world use cases, and serves as a stepping stone to more robust, database-driven applications.
 
 🧠 Future Improvements (Planned)
