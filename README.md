@@ -49,7 +49,7 @@ A powerful and extensible **C++ console-based banking system** designed to manag
 ## 🚀 How to Use
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/BankAccountsManager.git
+   git clone https://github.com/seifelabed21/BankAccountsManager.git
    cd BankAccountsManager
 
 
